@@ -1,0 +1,7 @@
+.Greeting{margin: 0 !important;
+    height: 100vh !important;
+    background: url(../../../img/test-wall.jpg)no-repeat bottom center !important;
+    background-size: cover !important;
+    display: flex !important;
+    align-items: center !important;
+}

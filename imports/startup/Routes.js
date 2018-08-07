@@ -1,15 +1,16 @@
 import React from 'react'
 import { Router, Route, Switch } from 'react-router'
 import createBrowserHistory from 'history/createBrowserHistory'
-import Greeting from '../ui/Greeting'
-//import AirView from './imports/worlds/server/AirView'
+import AirView from '../ui/AirView'
+import Principal from '../ui/Principal';
 
 const browserHistory = createBrowserHistory();
 
 export const renderRoutes = () => (
     <Router history={browserHistory}>
         <Switch>
-            <Route exact path="/" component={Greeting} />
+            <Route exact path="/" component={Principal} />
+            <Route exact path="/Air" component={AirView} />
         </Switch>
     </Router>
 );
