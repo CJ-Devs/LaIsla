@@ -7,14 +7,31 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 library.add(faCoffee)
 
 export default class Navbar extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+
+        }
+        this.handleHome = this.handleHome.bind(this);
+        this.handleSignUp = this.handleSignUp.bind(this);
+    }
+
+    handleHome() {
+        window.location = '/'
+    }
+
+    handleSignUp() {
+        window.location = '/Signup'
+    }
+
     render() {
         return (
             <div className={this.props.className + " grid-container"}>
-                <p className="nav-title">La Isla</p>
+                <p className="nav-title" onClick={this.handleHome}>La Isla</p>
                 {this.props.currentUser ?
                     <p className="nav-item">USER</p>
                     :
-                    <p className="nav-item i3">Registrarse</p>
+                    <p className="nav-item i3" onClick={this.handleSignUp}>Registrarse</p>
                 }
             </div>
         )

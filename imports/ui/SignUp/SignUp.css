@@ -1,0 +1,31 @@
+.SignUp {
+    position: relative;
+    top:0;
+    margin: 0 !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    background: #092d6c;
+    background-size: cover !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.Open-signup-modal{
+    z-index: 4;
+    margin: auto;
+    margin-top: 10vmin;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20vmin;
+    stroke-width: 1vmin;
+    color: rgb(255, 217, 0);
+
+}
+
+.modal-signup {
+    position: fixed !important;
+    width: 70vw !important;
+    height: 70vh !important;
+    top:15vh !important;
+    left: 15vh !important;
+}
