@@ -25,9 +25,6 @@ export default class Greeting extends Component {
                 <div className="mtn-r-flat" />
                 <div className="mtn-l-flat1" />
                 <div className="mtn-r-flat1" />
-                <div className="mtn-l-flat2" />
-                <div className="mtn-r-flat2" />
-                <div className="mtn-lake" />
                 <div className="mtn-l-flat5" />
                 <div className="mtn-r-flat5" />
                 <div className="mtn-square" />

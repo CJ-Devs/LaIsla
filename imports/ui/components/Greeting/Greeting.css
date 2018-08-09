@@ -21,7 +21,7 @@
     background: #b0708f;
     -moz-border-radius: 100px 100px 0 0;
     -webkit-border-radius: 100px 100px 0 0;
-    border-radius: 100vmax 100vmax 0 0; 
+    border-radius: 100vmax 100vmax 0 0;
 }
 
 .mtn-l-flat {
@@ -186,14 +186,14 @@
     0% {
         transform: rotate(-60deg);
         -moz-box-shadow: 1vmin 0.50vmax 0 white;
-    -webkit-box-shadow: 1vmin 0.50vmax 0 white;
-    box-shadow: 1vmin 0.50vmax 0 white;
+        -webkit-box-shadow: 1vmin 0.50vmax 0 white;
+        box-shadow: 1vmin 0.50vmax 0 white;
     }
     100% {
         transform: rotate(100deg);
         -moz-box-shadow: 1vmin 0.50vmax 0 rgba(255, 255, 255, 0);
-    -webkit-box-shadow: 1vmin 0.50vmax 0 rgba(255, 255, 255, 0);
-    box-shadow: 1vmin 0.50vmax 0 rgba(255, 255, 255, 0);
+        -webkit-box-shadow: 1vmin 0.50vmax 0 rgba(255, 255, 255, 0);
+        box-shadow: 1vmin 0.50vmax 0 rgba(255, 255, 255, 0);
     }
 }
 

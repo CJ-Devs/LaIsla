@@ -18,14 +18,19 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20vmin;
     stroke-width: 1vmin;
-    color: rgb(255, 217, 0);
-
+    color: #f4bd84;
 }
 
 .modal-signup {
-    position: fixed !important;
+    position: absolute !important;
     width: 70vw !important;
-    height: 70vh !important;
-    top:15vh !important;
-    left: 15vh !important;
+    height: fit-content !important;
+    top:5vh !important;
+    left: 15vw !important;
+}
+
+.fullscreen {
+    height: 100vh !important;
+    width: 100vw !important;
+    align-items: center !important;
 }
